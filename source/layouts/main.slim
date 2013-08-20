@@ -1,0 +1,10 @@
+doctype 5
+html lang="en" 
+  head           
+    meta charset="UTF-8"   
+    title Markdown to Ebook | An ebook on making ebooks
+    == stylesheet_link_tag :all
+  body
+    .container
+	    == yield
+    == javascript_include_tag :all
